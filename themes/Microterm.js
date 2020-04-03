@@ -1,26 +1,34 @@
+// iTerm 2 Default ANSI Colors
 black       = '#000000';
-red         = '#F25A00'; // red
-green       = '#00FF00'; // green
-yellow      = '#9F9F8F'; // yellow
-blue        = '#66D9EF'; // blue
-magenta     = '#AE81FF'; // pink
-cyan        = '#28C6E4'; // cyan
-white       = '#ffffff'; // light gray
-lightBlack  = '#C2E8FF'; // medium gray
-lightRed    = '#FD971F'; // red
-lightGreen  = '#529B2F'; // green
-lightYellow = '#9F9F8F'; // yellow
-lightBlue   = '#66D9EF'; // blue
-lightMagenta= '#F92672'; // pink
-lightCyan   = '#28C6E4'; // cyan
-lightWhite  = '#E0E0E0'; // white
+red         = '#BB0000';
+green       = '#00BB00';
+yellow      = '#BBBB00';
+blue        = '#0000BB';
+magenta     = '#BB00BB';
+cyan        = '#00BBBB';
+white       = '#BBBBBB'; // light gray
+lightBlack  = '#555555'; // medium gray
+lightRed    = '#FF5555';
+lightGreen  = '#55FF55';
+lightYellow = '#FFFF55';
+lightBlue   = '#5555FF';
+lightMagenta= '#FF55FF';
+lightCyan   = '#55FFFF';
+lightWhite  = '#FFFFFF'; // white
+
+// jdwhite Colors
+amber       = '#FFB100';
 
 t.prefs_.set('color-palette-overrides',
-                 [ black , red     , green  , yellow,
-                  blue     , magenta , cyan   , white,
-                  lightBlack   , lightRed  , lightGreen , lightYellow,
-                  lightBlue    , lightMagenta  , lightCyan  , lightWhite ]);
+                 [ black, red, green, yellow,
+                   blue, magenta, cyan, white,
+                   lightBlack, lightRed, lightGreen, lightYellow,
+                   lightBlue, lightMagenta, lightCyan, lightWhite ]);
 
-t.prefs_.set('cursor-color', '#FFB100'); // Amber
-t.prefs_.set('foreground-color', '#FFB100'); // Amber
+// Set cursor-color to green (arbitrarily) and 50% opacity
+// in order to see text under cursor.
+t.prefs_.set('cursor-color', 'rgba(0,255,0,0.5'); // Green, 50% opacity
+t.prefs_.set('cursor-blink', false);
+
+t.prefs_.set('foreground-color', amber);
 t.prefs_.set('background-color', black);
