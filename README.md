@@ -7,6 +7,6 @@ You can also find about [Blink's official repository](https://github.com/blinksh
 ## Screenshots
 
 ### [Microterm](themes/Microterm.js)
-Amber on black theme reminiscent of the Microterm RS232 terminals I used in the 1990s.
+Amber on black theme reminiscent of the Microterm RS232 terminals I used in the 1990s, but with colors.
 
 ![Microterm](screenshots/Microterm.png)
