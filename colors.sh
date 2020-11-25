@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # colors.sh - display color combinations, suitable
-#             for making blink theme screenshots.
+#             for making blinksh theme screenshots.
 #
 # Jason White <jdwhite@menelos.com>
 #
